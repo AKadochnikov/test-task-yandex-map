@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/fonts/helvetica.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/fonts/helvetica-bold.ttf") format("ttf");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9F9F9F;
+    background-color: #ffffff;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: grid;
+}
