@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main class="main-container">
+    <section class="cart">
+        <h1 class="cart-title">Корзина</h1>
+        <div class="authorization-links">
+            <a href="#">Есть аккаунт?</a>
+            <a href="#">Войти</a>
+        </div>
+        <form class="purchase-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="address" for="address">
+                <span class="address-text">Адрес</span>
+                <input class="address-input" id="address" type='text' name="address">
+            </label>
+            <label class="name" for="name">
+                <input class="name-input" id='name' type='text' name="name" placeholder="Ваше Имя">
+            </label>
+            <label class="phone" for="phone">
+                <input class="phone-input" id='phone' type='tel' name="phone" placeholder="Ваш Телефон">
+            </label>
+            <label class="email" for="email">
+                <input class="email-input" id='email' type='email' name="email" placeholder="Ваш Email">
+            </label>
+            <label for="package">
+                <select name="package" id="package">
+                    <option value="package-type" disabled selected hidden>Тип упаковки</option>
+                    <option value="not-package">без упаковки</option>
+                    <option value="standard">стандартная</option>
+                    <option value="gift-wrap">подарочная</option>
+                </select>
+            </label>
+            <label class="comment" for="comment">
+                <input class="comment-input" id='comment' type='text' name="comment" placeholder="Введите комментарий">
+            </label>
+        </form>
+        <div class="cards-container">
+            <h2 class="cards-title">Выбранные товары:</h2>
+            <ul class="cards-list">
+                <li class="cards-item">
+                    <div class="card">
+                        <h3 class="card-title">Товар 1</h3>
+                        <img class="card-image" src="" alt="Серая подарочная коробка с ораньжевым бантом и биркой-снежинкой">
+                        <p class="card-description">Описание товара, которое может быть очень-очень длинным</p>
+                        <div class="card-counting">
+                            <button class="decrement">-</button>
+                            <span class="count">1</span>
+                            <button class="increment">+</button>
+                        </div>
+                        <p class="card-price">1090 руб.</p>
+                        <a class="card-delete-button" href="#">Удалить</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
