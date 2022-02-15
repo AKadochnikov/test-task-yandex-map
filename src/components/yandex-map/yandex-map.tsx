@@ -4,7 +4,7 @@ import {INITIAL_MAP_CONFIG} from "../../const";
 function YandexMap ():JSX.Element {
     return (
         <YMaps>
-            <div>
+            <div className='map'>
                 <Map defaultState={INITIAL_MAP_CONFIG}/>
             </div>
         </YMaps>
